@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mogra&family=Montserrat&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Sans+Khmer:wght@100;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +10,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
-  color: white;
-  background: linear-gradient(45deg, #4158D0, #C850C0, #FFCC70);
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .app {
@@ -23,6 +25,10 @@ body {
   margin-top: 1rem;
   display: inline-block;
 }
+h4, p {
+  color: #ffffff;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -72,8 +78,37 @@ body {
   border-radius: 3px;
 }
 
-.download_btn {
-  color: white;
+/* CSS */
+.download_btn  {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.download_btn:hover,
+.download_btn:focus {
+  background-color: #F082AC;
 }
 
 @media screen and (max-width: 600px) {
