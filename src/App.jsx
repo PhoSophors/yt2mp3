@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <span className="logo">SOPHOIRS SMOS</span>
+      <span className="logo"><a href="https://www.instagram.com/sophors1._.1/" target="_blank">IG: sophors1._.1</a></span>
       <section className="content">
         <h4 className="content_title">ទាញយកចម្រៀងពី YouTube ទៅជា MP3</h4>
         <p className="content_description">
